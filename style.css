@@ -1,0 +1,91 @@
+/* ==========================================================
+   VISTARA - STYLESHEET
+   Plain HTML and CSS only. No frameworks. No JavaScript.
+
+   THE COLOURS WE USE
+   #0D2A20   dark green
+   #F5B93F   amber
+   #EEF1EB   light background
+   #FFFFFF   white
+   #10211B   dark text
+   #1B3A6B   dark blue (ISL tile)
+   #7A1E3C   dark red (IPL tile)
+   #B9BFB8   grey (sold seats)
+   ========================================================== */
+
+
+/* ==========================================================
+   PAGE BASICS
+   ========================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* light background */
+  background-color: #EEF1EB;
+  /* dark text */
+  color: #10211B;
+  line-height: 1.6;
+}
+
+/* keeps the content in the middle of the page */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+/* ==========================================================
+   NAVBAR
+   ========================================================== */
+
+.navbar {
+  /* dark green background */
+  background-color: #0D2A20;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* amber logo text */
+  color: #F5B93F;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.tagline {
+  /* white small text under the logo */
+  color: #FFFFFF;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+}
+
+.nav-links a {
+  /* white link text */
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* My Tickets is plain text, not a link */
+.nav-plain {
+  /* white text */
+  color: #FFFFFF;
+  font-size: 15px;
+}

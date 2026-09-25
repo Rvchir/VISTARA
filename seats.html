@@ -29,7 +29,139 @@
     </ul>
   </nav>
 
+  <!-- STEP PROGRESS BAR -->
+  <div class="container">
+    <ol class="step-bar">
+      <li class="step-done"><span>1</span> Choose a block</li>
+      <li class="step-active"><span>2</span> Pick your seats</li>
+      <li class="step-inactive"><span>3</span> Pay</li>
+      <li class="step-inactive"><span>4</span> Get your tickets</li>
+    </ol>
+  </div>
 
+  <!-- PAGE HEADING -->
+  <section class="section container">
+
+    <div class="section-head">
+      <h2>Select your seats &mdash; Block A</h2>
+      <span>Mumbai City FC vs Kerala Blasters</span>
+    </div>
+
+    <p>
+      Green seats are free, grey seats are already sold, and a seat turns amber
+      once you pick it. Click any green seat to select it.
+    </p>
+
+    <!-- PITCHSIDE ROWS - the most expensive seats -->
+    <h3>Rows A and B &mdash; pitchside &mdash; &#8377;40,000 a seat</h3>
+
+    <div class="seat-row">
+      <span class="row-label">A</span>
+      <input type="checkbox" id="sA1"><label for="sA1">A1</label>
+      <input type="checkbox" id="sA2"><label for="sA2">A2</label>
+      <span class="sold">A3</span>
+      <input type="checkbox" id="sA4"><label for="sA4">A4</label>
+      <input type="checkbox" id="sA5"><label for="sA5">A5</label>
+      <input type="checkbox" id="sA6"><label for="sA6">A6</label>
+      <span class="sold">A7</span>
+      <input type="checkbox" id="sA8"><label for="sA8">A8</label>
+      <input type="checkbox" id="sA9"><label for="sA9">A9</label>
+      <input type="checkbox" id="sA10"><label for="sA10">A10</label>
+    </div>
+
+    <div class="seat-row">
+      <span class="row-label">B</span>
+      <input type="checkbox" id="sB1"><label for="sB1">B1</label>
+      <span class="sold">B2</span>
+      <input type="checkbox" id="sB3"><label for="sB3">B3</label>
+      <input type="checkbox" id="sB4"><label for="sB4">B4</label>
+      <span class="sold">B5</span>
+      <input type="checkbox" id="sB6"><label for="sB6">B6</label>
+      <input type="checkbox" id="sB7"><label for="sB7">B7</label>
+      <input type="checkbox" id="sB8"><label for="sB8">B8</label>
+      <span class="sold">B9</span>
+      <input type="checkbox" id="sB10"><label for="sB10">B10</label>
+    </div>
+
+    <!-- MIDDLE ROWS -->
+    <h3>Rows C and D &mdash; middle &mdash; &#8377;12,000 a seat</h3>
+
+    <div class="seat-row">
+      <span class="row-label">C</span>
+      <input type="checkbox" id="sC1"><label for="sC1">C1</label>
+      <input type="checkbox" id="sC2"><label for="sC2">C2</label>
+      <input type="checkbox" id="sC3"><label for="sC3">C3</label>
+      <span class="sold">C4</span>
+      <input type="checkbox" id="sC5"><label for="sC5">C5</label>
+      <input type="checkbox" id="sC6"><label for="sC6">C6</label>
+      <input type="checkbox" id="sC7"><label for="sC7">C7</label>
+      <span class="sold">C8</span>
+      <input type="checkbox" id="sC9"><label for="sC9">C9</label>
+      <input type="checkbox" id="sC10"><label for="sC10">C10</label>
+    </div>
+
+    <div class="seat-row">
+      <span class="row-label">D</span>
+      <span class="sold">D1</span>
+      <input type="checkbox" id="sD2"><label for="sD2">D2</label>
+      <input type="checkbox" id="sD3"><label for="sD3">D3</label>
+      <input type="checkbox" id="sD4"><label for="sD4">D4</label>
+      <input type="checkbox" id="sD5"><label for="sD5">D5</label>
+      <span class="sold">D6</span>
+      <input type="checkbox" id="sD7"><label for="sD7">D7</label>
+      <input type="checkbox" id="sD8"><label for="sD8">D8</label>
+      <input type="checkbox" id="sD9"><label for="sD9">D9</label>
+      <input type="checkbox" id="sD10"><label for="sD10">D10</label>
+    </div>
+
+    <!-- BACK ROWS - the cheapest seats -->
+    <h3>Rows E and F &mdash; back of the block &mdash; &#8377;2,000 a seat</h3>
+
+    <div class="seat-row">
+      <span class="row-label">E</span>
+      <input type="checkbox" id="sE1"><label for="sE1">E1</label>
+      <input type="checkbox" id="sE2"><label for="sE2">E2</label>
+      <span class="sold">E3</span>
+      <input type="checkbox" id="sE4"><label for="sE4">E4</label>
+      <span class="sold">E5</span>
+      <input type="checkbox" id="sE6"><label for="sE6">E6</label>
+      <input type="checkbox" id="sE7"><label for="sE7">E7</label>
+      <input type="checkbox" id="sE8"><label for="sE8">E8</label>
+      <input type="checkbox" id="sE9"><label for="sE9">E9</label>
+      <span class="sold">E10</span>
+    </div>
+
+    <div class="seat-row">
+      <span class="row-label">F</span>
+      <input type="checkbox" id="sF1"><label for="sF1">F1</label>
+      <span class="sold">F2</span>
+      <input type="checkbox" id="sF3"><label for="sF3">F3</label>
+      <input type="checkbox" id="sF4"><label for="sF4">F4</label>
+      <input type="checkbox" id="sF5"><label for="sF5">F5</label>
+      <input type="checkbox" id="sF6"><label for="sF6">F6</label>
+      <span class="sold">F7</span>
+      <input type="checkbox" id="sF8"><label for="sF8">F8</label>
+      <span class="sold">F9</span>
+      <input type="checkbox" id="sF10"><label for="sF10">F10</label>
+    </div>
+
+    <!-- COLOUR LEGEND -->
+    <div class="legend">
+      <div><span class="box box-green"></span> Available</div>
+      <div><span class="box box-amber"></span> Your pick</div>
+      <div><span class="box box-grey"></span> Sold</div>
+    </div>
+
+    <!-- TALLY BAR -->
+    <div class="tally-bar">
+      <div class="tally-item"><span>Seats selected</span><strong id="tally-count">0</strong></div>
+      <div class="tally-item"><span>Subtotal</span><strong id="tally-sub">&#8377;0</strong></div>
+      <div class="tally-item"><span>GST (28%)</span><strong id="tally-gst">&#8377;0</strong></div>
+      <div class="tally-item"><span>Total</span><strong id="tally-total">&#8377;0</strong></div>
+      <a class="btn tally-btn" href="checkout.html">Continue to payment</a>
+    </div>
+
+  </section>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -81,6 +213,29 @@
 
     </div>
   </footer>
+
+  <!-- TALLY SCRIPT -->
+  <script>
+    /* this script counts how many seats the user has ticked and shows the price */
+    var pricePerSeat = 2500; /* price for Block A */
+    var gstRate = 0.28;      /* 28% GST on stadium tickets */
+
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+    checkboxes.forEach(function(box) {
+      box.addEventListener('change', function() {
+        var count = document.querySelectorAll('input[type="checkbox"]:checked').length;
+        var subtotal = count * pricePerSeat;
+        var gst = Math.round(subtotal * gstRate);
+        var total = subtotal + gst;
+
+        document.getElementById('tally-count').innerText = count;
+        document.getElementById('tally-sub').innerText = '₹' + subtotal.toLocaleString('en-IN');
+        document.getElementById('tally-gst').innerText = '₹' + gst.toLocaleString('en-IN');
+        document.getElementById('tally-total').innerText = '₹' + total.toLocaleString('en-IN');
+      });
+    });
+  </script>
 
 </body>
 
